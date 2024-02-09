@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    }
+
+    .navbar {
+        background-color: #333;
+        padding: 0px;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 50px;
+    }
+
+    .leftmenu {
+        display: flex;
+        align-items: center;
+    }
+
+    .leftmenu .icon {
+        width: 30px; 
+        height: auto; 
+        margin-right: 10px; 
+    }
+
+    .leftmenu h4 {
+        color: #fff;
+        margin: 0;
+        font-size: 24px;
+    }
+
+    .rightmenu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .rightmenu ul li {
+        display: inline-block;
+        margin-right: 20px;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .rightmenu ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .content-container {
+        padding: 20px;
+        height: 580px;
+        
+    }
+
+    .content-box {
+        background-color: #f0f0f0;
+        border-radius: 10px;
+        padding: 20px;
+        height: 350px;
+        margin: 50px auto 20px auto;
+        width: 70%;
+    }
+
+    .content-box h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+
+    .content-box label {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .content-box input[type="text"] {
+        width: 98%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .content-box p {
+        margin-bottom: 10px;
+    }
+
+    .content-box button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+    .content-box button:hover {
+        background-color: #0056b3;
+    }
+
+    .footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        
+    }
+
+    .foo{
+        color: #fff;
+    }
+
+    .here {
+        color: #000;
+    }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <title>URL Score Calculator</title>
+    
+</head>
+<body>
+    <div class="navbar">
+        <div class="menu">
+            <div class="leftmenu">
+                <a style="text-decoration:none" href="index.html"><img src="icon.png" alt="Icon" class="icon"></a>
+                <a style="text-decoration:none" href="index.html"><h4>CWL</h4></a>
+            </div>
+            <div class="rightmenu">
+                <ul>
+                    <li id="firstlist"><a href="index.html">Home</a></li>
+                    <li><a href="update.html">Update Info</a></li>
+                    <li><a href="score.html">Check Score</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-container">
+        <div class="content-box">
+            <h1>URL Score Calculator</h1>
+            <form action="calculate_score.php" method="post">
+                <label for="url">Enter Your Site URL:</label>
+                <input type="text" id="url" name="url" required>
+                <p>For more accurate result please provide more information about your site <a href="/URL_score/update.html"><span class="here">Here</span></a></p>
+                <button type="submit">Calculate Score</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>®CWL For Cyber Security Course and Training Visit <a href="https://cyberwarfare.live"><span class="foo">cyberwarfare.live</span></a></p>
+    </div>
+</body>
+</html>

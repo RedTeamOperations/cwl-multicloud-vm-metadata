@@ -1,0 +1,122 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: #333;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.leftmenu {
+    display: flex;
+    align-items: center;
+}
+
+.leftmenu .icon {
+    width: 30px;
+    height: auto; 
+    margin-right: 10px; 
+}
+
+.leftmenu h4 {
+    color: #fff;
+    margin: 0;
+    font-size: 24px;
+}
+
+.rightmenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.rightmenu ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.rightmenu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.bgcolor {
+    
+    background-color: #0084da; 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.9;
+    
+}
+
+
+.text {
+    text-align: center;
+    color: #fff;
+    padding-top: 40px;
+     
+}
+
+.text h1 {
+    font-size: 48px;
+    margin-top: 0;
+}
+
+.text h2 {
+    font-size: 30px;
+    margin-top: 0;
+    color: #333;
+    padding-bottom: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 680px;
+
+}
+
+.btn:hover {
+    background-color: #333;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+span {
+    color: #fff;
+}
+
+img {
+    width: 900px;
+    height: 500px;
+    margin-left: 20px;
+}
+
+.last {
+    background-color: #0084da; 
+}
