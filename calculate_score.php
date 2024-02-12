@@ -159,8 +159,8 @@
     <div class="navbar">
         <div class="menu">
             <div class="leftmenu">
-                <img src="icon.png" alt="Icon" class="icon">
-                <h4>CWL</h4>
+                <a style="text-decoration:none" href="index.html"><img src="icon.png" alt="Icon" class="icon"></a>
+                <a style="text-decoration:none" href="index.html"><h4>CWL</h4></a>
             </div>
         </div>
     </div>
